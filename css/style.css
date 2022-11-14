@@ -1,0 +1,109 @@
+body{
+    background: rgba(242, 242, 242, 1);
+    font-family: 'Arima Madurai', cursive;
+    /* font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+}
+
+h3{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 59px;
+    letter-spacing: 0em;
+    color: rgba(28, 132, 157, 1);
+    margin-left: 20px;
+    padding-top: 12px;
+}
+
+#signUp_text{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 82px;
+    margin-left: -380px;
+}
+
+#mobile-image{
+    height: 699px;
+    width: 611px;
+    border-radius: 0px;
+}
+
+.text-accent{
+    Font-family: Archivo;
+    Font-style: Regular;
+    Font-size: 14sp;
+    color: #A1D3EA;
+}
+
+.border-color{
+    border: 2px solid #A1D3EA; 
+}
+
+.bg-accent{
+    background-color: #A1D3EA;
+}
+
+.termsAndConditions,
+.Alreadyregistered{
+    font-family: Archivo;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+
+.mobile-image-container{
+    width: 55%;
+}
+
+.signup-form-hero-section-cont{
+    width: 45%;
+}
+
+#first-logo-text{
+    color: rgba(28, 132, 157, 1);
+}
+
+.first-section--footer,
+.second-section--footer,
+.third-section--footer{
+    width:33.33%;
+}
+
+.brown-bg{
+    background: rgba(128, 128, 128, 0.8);
+
+}
+
+.brown-text{
+    color: rgba(128, 128, 128, 0.8);
+
+}
+
+.light-blue{
+    background: rgba(239, 250, 255, 1);
+}
+
+.blue-background{
+    background:#8ECAE6;
+}
+
+.rounded-box{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.verify-btn{
+    height: 56px;
+    width: 500px;
+    border-radius: 8px;
+    padding: 16px 40px 16px 40px;
+}
+
+.sign-up-btn{
+    height: 56px;
+    width: 142px;
+    border-radius: 8px;
+    padding: 16px 40px 16px 40px;
+}

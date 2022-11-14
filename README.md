@@ -1,1 +1,1 @@
-A streaming platform for college students
+A video streaming platform for college students

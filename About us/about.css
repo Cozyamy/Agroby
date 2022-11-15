@@ -31,7 +31,7 @@ header {
 #firstlogo {
   width: 232px;
   height: 80px;
-  margin-right: 73px;
+  margin-right: 90px;
 }
 
 .container {
@@ -46,7 +46,8 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 42px;
+  justify-content: center;
+  gap: 52px;
 
 }
 
@@ -83,6 +84,21 @@ header {
   justify-content: center;
   align-items: center;
   color: #021823;
+}
+
+.upload {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+  gap: 4px;
+  width: 139px;
+  height: 49px;
+  background-color: #46AEC7;
+  border-radius: 8px;
+  margin-left: 140px;
+  color: #476573;
 }
 
 .nav-link {

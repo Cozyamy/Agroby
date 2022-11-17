@@ -107,3 +107,38 @@ h3{
     border-radius: 8px;
     padding: 16px 40px 16px 40px;
 }
+
+.hero-column{
+    background-image: url("../img/beach.png");
+    height: 984px;
+    width: 100%;
+    background-size:cover;
+
+}
+
+.hero-column--text{
+    padding:300px;
+}
+
+.Third-Hero--column{
+    background: rgba(239, 250, 255, 1);
+}
+
+.movie-background{
+    background:#B4DCEE;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.16);
+
+}
+
+.dark-blue{
+    background: rgba(11, 53, 63, 1);
+}
+
+.light-brown{
+    background:#1F011119;
+}
+
+.kevin-hart{
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}

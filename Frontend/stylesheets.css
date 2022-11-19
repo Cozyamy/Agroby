@@ -3,9 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  font-family: Axiforma, sans-serif;
-}
 
 li,
 ul {
@@ -24,14 +21,15 @@ header {
   align-items: center;
   background: #EFFAFF;
   height: 136px;
-   padding-left: 80px;
+  padding-left: 80px;
   padding-right: 80px;
+  width: 1440px;
 }
 
 #firstlogo {
-  width: 232px;
+  width: 272px;
   height: 80px;
-  margin-right: 90px;
+  /*margin-right: 90px;*/
 }
 
 .container {
@@ -39,6 +37,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 94px;
  
 }
 
@@ -48,15 +47,19 @@ header {
   align-items: center;
   justify-content: center;
   gap: 52px;
+  width: 523px;
+  height: 29px;
 
 }
 
 .authenticate {
-  margin-left: 50px;
+  /*margin-left: 50px;*/
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   gap: 24px;
+  width: 296px;
+  height: 56px;
 }
 
 .signup {
@@ -70,6 +73,7 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  color: #021823;
 }
 
 .signin {
@@ -121,6 +125,304 @@ header {
   color: #219EBC;
   text-decoration: underline;
   text-decoration-color: #BECAE6;
+}
+
+/*terms and conditions*/
+
+.tnc-main {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 31px;
+  margin-bottom: 45px;
+  gap: 58px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  width: 1279px;
+}
+
+.tnc-main > h4 {
+  font-family: 'Arima Madurai' sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 46px;
+  color: #131313;
+  width: 243px;
+  height: 46px;
+  white-space: nowrap;
+  margin-bottom: -58px;
+
+}
+
+.tnc-main > article {
+  width: 1074px;
+  font-family: 'Arima Madurai' sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #131313;
+  width: 1279px;
+}
+
+.tnc-main > p {
+  width: 1074px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #131313;
+  width: 1279px;
+}
+
+
+.one {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.four {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 40px;
+}
+
+#five {
+  padding-top: 40px;
+}
+
+#six {
+  padding-bottom: 40px;
+}
+
+#seven {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.eight {
+  padding-top: 40px;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Privacy policy*/
+
+.policy-main {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 31px;
+  margin-bottom: 45px;
+  gap: 58px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  width: 1279px;
+}
+
+.policy-main > h4 {
+  font-family: 'Arima Madurai' sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 46px;
+  color: #131313;
+  width: 243px;
+  height: 46px;
+  white-space: nowrap;
+  margin-bottom: -58px;
+
+}
+
+.policy-main > article {
+  width: 1074px;
+  font-family: 'Arima Madurai' sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #131313;
+  width: 1279px;
+}
+
+.policy-main > p {
+  width: 1074px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #131313;
+  width: 1279px;
+}
+
+.spaced {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.nospace {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.different {
+  margin-top: 40px;
+}
+
+.inbetween {
+  margin-top: -40px;
+}
+
+.thebuttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 965px;
+  width: 1278px;
+  height: 56px;
+}
+
+#go {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 40px;
+  gap: 4px;
+  width: 148px;
+  height: 56px;
+  border: 2px solid #8ECAE6;
+  border-radius: 8px;
+  font-family: 'Archivo' sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #8ECAE6;
+  white-space: nowrap;
+
+}
+
+#proceed {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 48px;
+  gap: 8px;
+  width: 165px;
+  height: 56px;
+  border-radius: 8px;
+  background-color: #8ECAE6;
+  font-family: 'Archivo' sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #011119;
+  border: none;
+}
+
+/*FAQ*/
+.faq-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 46px;
+  width: 1278px;
+  height: 671.97px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 119px;
+  margin-bottom: 189.03;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 11px;
+  width: 730px;
+  height: 121px;
+}
+
+.question > h1{
+  font-size: 54px;
+  font-family: 'Arima Madurai', sans-serif;
+  font-weight: 700;
+  line-height: 82px;
+  color: #393333;
+  width: 730px;
+  height: 82px;
+}
+
+.question > p {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #393333;
+  width: 730px;
+  height: 28px;
+}
+
+.next {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 134px;
+  height: 504.97px;
+  width: 1278px;
+}
+
+
+.ask {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  width: 657px;
+  height: 308px;
+}
+
+.ask p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 40px;
+  gap: 350px;
+  width: 657px;
+  height: 76px;
+  background-color: #219EBC;
+  border-radius: 8px;
+  white-space: nowrap;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #F2F2F2;
+}
+
+#long {
+  gap: 170px;
+}
+
+/*Contact us*/
+
+
+.contact-main {
+  height: 1112px;
+  background-color: #FCFCFC;
 }
 
 .top {
@@ -290,16 +592,204 @@ header {
   justify-content: flex-start;
 }
 
+/*about us*/
+
+.about-main {
+  width: 1269px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 88px;
+  margin-right: 87px;
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+
+.thestory {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 40px;
+  width: 1265px;
+  height: 610px;
+}
+
+.thestory >h1 {
+  padding: 24px 56px;
+  gap: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 305px;
+  height: 114px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-family: 'Arima Madurai', sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 66px;
+  color: #072026;
+}
+
+.thestory > article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 42px;
+  width: 1265px;
+  height: 456px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px 9px;
+  gap: 8px;
+  width: 622px;
+  height: 456px;
+  font-family: 'Arima Madurai', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: #072026;
+}
+
+.firstimg {
+ margin-top: -50px;
+
+}
+
+#rectangle {
+  width: 1265px;
+  height: 299px;
+  background-color: rgba(255, 231, 171, 0.6);
+  border-radius: 0px 0px 200px 200px;
+  margin-top: -170px;
+}
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 60px;
+  width: 1269px;
+  height: 486px;
+}
+
+.mission > h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 24px 56px;
+  gap: 24px;
+  width: 350px;
+  height: 114px;
+  font-family: 'Arima Madurai', sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 66px;
+  color: #072026;
+}
+
+.mission-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 1269px;
+  height: 312px;
+}
+
+.mission-group > img {
+  margin-top: -70px;
+}
+
+.mission-art {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 628px;
+  height: 312px;
+  font-family: 'Arima Madurai', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #072026;
+  text-align: center;
+}
+
+.Goals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 36px;
+  width: 1269px;
+  height: 510px;
+}
+
+.Goals > h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 24px 56px;
+  gap: 24px;
+  width: 307px;
+  height: 114px;
+  font-family: 'Arima Madurai', sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 66px;
+  color: #072026;
+
+}
+
+.goal-div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 164px;
+  width: 1269px;
+  height: 360px;
+}
+
+.Goals-art {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 553px;
+  height: 360px;
+  font-family: 'Arima Madurai', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #072026;
+}
+
 footer {
   background-color: #1C282E;
+  width: 1440px;
+  height: 623px;
+  padding: 80px;
 }
 
 .thefooter {
   display: flex;
   flex-direction: row;
-  gap: 137px;
-  margin-left: 80px;
-  margin-right: 80px;
+  align-items: center;
+  padding: 0px;
+  gap: 142px;
 }
 
 .left {
@@ -308,9 +798,8 @@ footer {
   align-items: flex-start;
   padding: 0px;
   gap: 40px;
-  width: 299px;
-  margin-top: 56px;
-  margin-bottom: 78px;
+  width: 407px;
+  height: 379px;
 }
 
 .left > p {
@@ -324,7 +813,6 @@ footer {
   align-items: center;
   color: #F2F2F2;
   font-family: Archivo, sans-serif;
-  margin-top: -35px;
 }
 
 form.nosubmit {
@@ -335,6 +823,7 @@ form.nosubmit {
   font-weight: 400;
   font-size: 18px;
   display: flex;
+  flex-direction: row;
   align-items: center;
   line-height: 28px;
   color: rgba(255, 255, 255, 0.8);
@@ -342,13 +831,6 @@ form.nosubmit {
   padding: 20px;
   justify-content: center;
 
-}
-
-.nosubmit > i {
-  background-color: #1C282E;
-  align-items: center;
-  font-size: 20px;
-  padding-top: 8px;
 }
 
 .nosubmit > input {
@@ -477,12 +959,10 @@ color: white;
   flex-direction: row;
   align-items: center;
   padding: 0px;
-  gap: 260px;
+  gap: 309px;
   width: 1247px;
   height: 52px;
-  padding-bottom: 58px;
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-top: 78px;
 }
 
 #copy {

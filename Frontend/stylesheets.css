@@ -1253,16 +1253,6 @@ iframe:hover {
   padding-top: 40px;
 }
 
-/*.the-right-aside{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  width: 332px;
-  height: 492px;
-  
-}*/
-
 .my-playlist {
   display: flex;
   flex-direction: row;
@@ -1339,6 +1329,119 @@ iframe:hover {
   line-height: 22px;
   color: #011119;
   white-space: nowrap;
+}
+
+/*settings*/
+
+.settings-menu > p{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 0px 0px 8px;
+  gap: 65px;
+  width: 229px;
+  height: 48px;
+  font-family: 'Archivo' sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  margin-top: 0px;
+  white-space: nowrap;
+  background-image: linear-gradient(270deg, #8ECAE6 0%, rgba(142, 202, 230, 0)100%);
+}
+
+.signout-space {
+  margin-top: 320px;
+}
+
+.settings-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  width: 598px;
+  height: 768px;
+}
+
+.settings-middle > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 103px;
+  width: 591px;
+  height: 66px;
+}
+
+.settings-middle > div > h3 {
+  font-family: 'Arima Madurai', sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 66px;
+  color: #011119;
+  width: 297px;
+  height: 66px;
+}
+
+.settings-middle > div > button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 24px;
+  gap: 8px;
+  background-color: #8ECAE6;
+  border-radius: 8px;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  border: none;
+  white-space: nowrap;
+  color: #011119;
+  width: 191px;
+  height: 64px;
+}
+
+.settings-middle > form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 47px;
+  width: 591px;
+  height: 652px;
+  overflow-y: scroll;
+}
+
+.settings-middle > form > label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 523px;
+  height: 86px;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #808080;
+}
+
+.settings-input {
+  width: 523px;
+  height: 56px;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #808080;
+  padding-left: 16px;
 }
 
 footer {

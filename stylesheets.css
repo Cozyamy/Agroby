@@ -87,6 +87,7 @@ header {
   justify-content: center;
   align-items: center;
   color: #021823;
+  white-space: nowrap;
 }
 
 .upload {

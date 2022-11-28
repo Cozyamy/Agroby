@@ -1,0 +1,144 @@
+body{
+    background: rgba(242, 242, 242, 1);
+    font-family: 'Arima Madurai', cursive;
+    /* font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+}
+
+h3{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 59px;
+    letter-spacing: 0em;
+    color: rgba(28, 132, 157, 1);
+    margin-left: 20px;
+    padding-top: 12px;
+}
+
+#signUp_text{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 82px;
+    margin-left: -380px;
+}
+
+#mobile-image{
+    height: 699px;
+    width: 611px;
+    border-radius: 0px;
+}
+
+.text-accent{
+    Font-family: Archivo;
+    Font-style: Regular;
+    Font-size: 14sp;
+    color: #A1D3EA;
+}
+
+.border-color{
+    border: 2px solid #A1D3EA; 
+}
+
+.bg-accent{
+    background-color: #A1D3EA;
+}
+
+.termsAndConditions,
+.Alreadyregistered{
+    font-family: Archivo;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+
+.mobile-image-container{
+    width: 55%;
+}
+
+.signup-form-hero-section-cont{
+    width: 45%;
+}
+
+#first-logo-text{
+    color: rgba(28, 132, 157, 1);
+}
+
+.first-section--footer,
+.second-section--footer,
+.third-section--footer{
+    width:33.33%;
+}
+
+.brown-bg{
+    background: rgba(128, 128, 128, 0.8);
+
+}
+
+.brown-text{
+    color: rgba(128, 128, 128, 0.8);
+
+}
+
+.light-blue{
+    background: rgba(239, 250, 255, 1);
+}
+
+.blue-background{
+    background:#8ECAE6;
+}
+
+.rounded-box{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.verify-btn{
+    height: 56px;
+    width: 500px;
+    border-radius: 8px;
+    padding: 16px 40px 16px 40px;
+}
+
+.sign-up-btn{
+    height: 56px;
+    width: 142px;
+    border-radius: 8px;
+    padding: 16px 40px 16px 40px;
+}
+
+.hero-column{
+    background-image: url("../img/beach.png");
+    height: 984px;
+    width: 100%;
+    background-size:cover;
+
+}
+
+.hero-column--text{
+    padding:300px;
+}
+
+.Third-Hero--column{
+    background: rgba(239, 250, 255, 1);
+}
+
+.movie-background{
+    background:#B4DCEE;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.16);
+
+}
+
+.dark-blue{
+    background: rgba(11, 53, 63, 1);
+}
+
+.light-brown{
+    background:#1F011119;
+}
+
+.kevin-hart{
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}

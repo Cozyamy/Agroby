@@ -3099,6 +3099,204 @@ iframe:hover {
 
 }
 
+/* Verify */
+
+.verify-main {
+  width: 696px;
+  height: 1050px;
+  margin-left: 372px;
+  margin-right: 372px;
+  margin-top: 44px;
+  margin-bottom: 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.verify-main > article {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  justify-content: center;
+  align-items: center;
+}
+
+.verify-main > article > p {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+
+}
+
+.verify-rectangle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 24px;
+  width: 696px;
+  height: 120px;
+}
+
+.verify-rectangle > div  {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 10px;
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+  border: 1px solid #407BFF;
+  box-sizing: border-box;
+
+}
+
+.verify-rectangle > div > p {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(242, 242, 242, 0.9);
+}
+
+.verify-button {
+  margin-top: 106px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+  width: 500px;
+  height: 116px;
+}
+
+.verify-button > a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 40px;
+  gap: 4px;
+  width: 500px;
+  height: 56px;
+  background-color: #8ECAE6;
+  border-radius: 8px;
+  font-family: 'Arima Madurai', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 46px;
+  color: #011119;
+}
+
+.verify-button > p {
+  width: 271px;
+  height: 28px;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #808080;
+}
+
+/* Login */
+
+.Login-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 31px;
+  width: 1280px;
+  height: 821px;
+  margin-right: 76px;
+  margin-top: 107px;
+  margin-left: 84px;
+  margin-bottom: 190px;
+}
+
+.Login-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 36px;
+  width: 1280px;
+  height: 710px;
+}
+
+.welcomeback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 628px;
+  height: 710px;
+}
+
+.welcomeback > h1 {
+  font-family: 'Arima Madurai', sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 82px;
+  color: #161616;
+  width: 375px;
+  height: 82px;
+  white-space: nowrap;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 64px;
+  gap: 64px;
+  width: 628px;
+  height: 604px;
+  border-radius: 16px;
+}
+
+.login-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 32px;
+  width: 500px;
+  height: 264px;
+}
+
+.checkbox-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px 4px;
+  gap: 4px;
+  width: 500px;
+  height: 28px;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #808080;
+}
+
+.checkbox-div > p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 151px;
+  height: 28px;
+}
+
 footer {
   background-color: #1C282E;
   width: 1440px;

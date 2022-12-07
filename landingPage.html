@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Font link-->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300;400;500;900&family=Inter:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
@@ -15,7 +16,7 @@
 </head>
 <body>
      <!-- Header section -->
-     <div class="light-blue py-1">
+     <div class="light-blue py-1 desktop-header">
         <section class="container">
             <header id="header" class="mt-5 d-flex justify-content-between">
                 <section id="logo-cont" class="d-flex">
@@ -24,11 +25,11 @@
                 </section>
                 <section>
                     <ul class="fs-6 list-unstyled d-flex justify-content-between mt-4">
-                        <li class=" fs-5"><a class="border-bottom text-accent" href="index.html">Home</a></li>
-                        <li class="mx-3 fs-5"> <a>Explore</a></li>
+                        <li class=" fs-5 bigScreen-visibility"><a class="border-bottom text-accent" href="index.html">Home</a></li>
+                        <li class="mx-3 fs-5 bigScreen-visibility"> <a>Explore</a></li>
                         <li class=" fs-5"><a>About us</a></li>
                         <li class="mx-3 fs-5"><a>Contact us</a></li>
-                        <li class=" fs-5"><a>FAQ</a></li>
+                        <li class=" fs-5 bigScreen-visibility"><a>FAQ</a></li>
                     </ul>
                 </section>
                 <section class="d-flex justify-content-between mt-2">
@@ -38,19 +39,66 @@
             </header>
         </section>
     </div>
+    <!--Mobile section-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-faded">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo_tutee.png" alt="logo"/>
+            </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+               </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="login.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Explore</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="About.html">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="Contact.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">FAQ</a>
+                            </li>
+                        </ul>
+                </div>
+       </div>
+    </nav>
+    <!-- tablet Nav -->
+    <div class="light-blue py-1 tablet-header">
+        <section class="container">
+            <header id="header" class="mt-5 d-flex justify-content-between">
+                <section id="logo-cont" class="d-flex">
+                    <img src="img/logo_tutee.png" class="align-self-center" width="55.11px" height="43.21px" alt="tuteereelz logo">
+                    <h3 id="first-logo-text">TuteeReelz</h3>
+                </section>
+                <section class="d-flex justify-content-between mt-2">
+                    <a class="border-bottom text-accent btn  fw-bold mt-2 mx-3" href="login.html">login</a>
+                    <!-- <a href="login.html" class="me-3 sign-up-btn btn border-dark fw-bold">Log in</a> -->
+                    <a href="Signup.html" class="sign-up-btn btn border-dark fw-bold blue-background">Sign up</a>
+                </section>
+            </header>
+        </section>
+    </div>
     <!--Hero first column-->
-    <section class="hero-column">
+    <section class="hero-column tablet-visibility">
         <div class="container">
             <div class="hero-column--text d-flex text-center flex-column justify-content-center align-content-center">
-                <h1 class="text-white ">Share your college experience with the world today.</h1>
-                <form class="form-inline w-100 align-self-center mt-5">
-                    <input class="form-control mr-sm-2 p-2 bg-white" type="search" placeholder="🔍 Search for songs, lyrics.artist..." aria-label="Search">
+                <h1 class="text-white">Share your college experience with the world today.</h1>
+                <form class="form-inline w-100 align-self-center mt-5 d-flex fontsearch">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <input class="form-control mr-sm-2 p-2 bg-white" type="search" placeholder="         Search for songs, lyrics.artist..." aria-label="Search">
                 </form>
             </div>
         </div>
     </section>
     <!--Hero second column-->
-    <section class="container">
+    <section class="container Hero-second-column tablet-visibility">
         <div class="d-flex flex-column text-center  mt-5">
             <h2 class="fw-bolder fs-1 mt-5">How to use TuteeReelz</h2>
             <div class="d-flex align-self-center mt-3">
@@ -122,10 +170,10 @@
     <!--Hero third column-->
     <div class="Third-Hero--column pt-5 pb-5">
         <div class="container">
-                <section class=" text-center">
+                <section class="text-center">
                     <h3 class="text-black">Trending on TuteeReelz</h3>
                 </section>
-                <section class="d-flex">
+                <section class="d-flex movie-box">
                     <section class="movie-background mb-4 p-2 me-0">
                         <iframe class="rounded-5" width="300px" height="320px" src="https://www.youtube.com/embed/e_1utfWwdD4" 
                             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
@@ -134,25 +182,25 @@
                         <p class="mb-0 mt-1 fw-bold fs-5">Learn about the human system </p>
                         <p class="mt-1 fs-6">By: Jemima Adeobi</p>
                     </section>
-                    <section class="movie-background mb-4 mx-3 p-2 me-0 ms-2">
+                    <section class="movie-background mb-4 mx-3 p-2 me-0 ms-2 tablet-visibility">
                         <iframe class="rounded-5 ms-1" width="300px" height="320px" src="https://www.youtube.com/embed/fa7s_AXjMj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <p class="mb-0 mt-1 ms-3 fw-bold fs-5">Learn about the laws of User </p>
                         <p class="mb-0 mt-1 ms-3 fw-bold fs-5"> Interface </p>
                         <p class="mt-1 fs-6 ms-3">By: Club UX</p>
                     </section>
-                    <section class="movie-background mb-4 mx-2 p-2">
+                    <section class="movie-background mb-4 mx-2 p-2 footer-section">
                         <iframe class="rounded-5 ms-3" width="300px" height="320px" src="https://www.youtube.com/embed/_XVGDx3TWaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <p class="mb-0 mt-1 ms-3 fw-bold fs-5">Tutorial on how to pass</p>
                         <p class="mb-0 mt-1 ms-3 fw-bold fs-5"> mathematics </p>
                         <p class="mt-1 fs-6 ms-3">By: ChetChat</p>
                     </section>
-                    <section class="movie-background mb-4 me-4 p-2">
+                    <section class="footer-section movie-background mb-4 me-4 p-2 tablet-visibility bigScreen-visibility">
                         <iframe class="rounded-5 ms-3" width="300px" height="320px" src="https://www.youtube.com/embed/oYRda7UtuhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <p class="mb-0 mt-1 ms-3 fw-bold fs-5">Building a website for users</p>
                         <p class="mt-1 fs-6 ms-3">By: Easytutorial</p>
                     </section>
                 </section>
-                <section class="d-flex">
+                <section class="d-flex movie-box">
                     <section class="movie-background p-2 me-0">
                         <iframe class="rounded-5" width="300px" height="320px" src="https://www.youtube.com/embed/_i6HcFGTy7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
                         clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -161,31 +209,31 @@
                         <p class="mb-0 mt-1 fw-bold fs-5">there is</p>
                         <p class="mt-1 fs-6">By: Rick Kettner</p>
                     </section>
-                    <section class="movie-background mx-3 p-2 me-0 ms-2">
+                    <section class="movie-background mx-3 p-2 me-0 ms-2 footer-section">
                         <iframe class="rounded-5 ms-1" width="300px" height="320px" src="https://www.youtube.com/embed/9Lu7eKzkioc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
                             clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <p class="mb-0 mt-1 ms-3 fw-bold fs-5">Impact of studying together </p>
                         <p class="mt-1 fs-6 ms-3">By: TEDx</p>
                     </section>
-                    <section class="movie-background mx-2 p-2">
+                    <section class="movie-background mx-2 p-2 footer-section tablet-visibility">
                         <iframe class="rounded-5 ms-3" width="300px" height="320px" src="https://www.youtube.com/embed/vggu2dDcjRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <p class="mb-0 mt-1 ms-3 fw-bold fs-5">Being a college student is</p>
                         <p class="mb-0 mt-1 ms-3 fw-bold fs-5">fun</p>
                         <p class="mt-1 fs-6 ms-3">By: MostlySane</p>
                     </section>
-                    <section class="movie-background me-4 p-2">
+                    <section class="movie-background me-4 p-2 footer-section tablet-visibility bigScreen-visibility">
                         <iframe class="rounded-5 ms-3" width="300px" height="320px" src="https://www.youtube.com/embed/TPP-lc1ruOY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <p class="mb-0 mt-1 ms-3 fw-bold fs-5">Unilag music concert 2022</p>
                         <p class="mt-1 fs-6 ms-3">By: Ayomikun Isaac </p>
                     </section>
                 </section>
                 <section class="d-flex justify-content-around align-self-center mt-5">
-                    <a href="login.html" class="dark-blue w-25 rounded p-3 text-white text-decoration-none text-center">Click to see more</a>
+                    <a href="login.html" class="click-more dark-blue w-25 rounded p-3 text-white text-decoration-none text-center">Click to see more</a>
                 </section>
         </div>
     </div>
     <!--Hero fourth column-->
-    <div class="container pt-5">
+    <div class="container pt-5 Hero-fourth-column">
         <div class="d-flex">
             <section>
                 <iframe class="kevin-hart" width="460px" height="315px" src="https://www.youtube.com/embed/T3mwUEoZdrI" 
@@ -194,22 +242,22 @@
             </section>
             <section class="ms-5 d-flex flex-column">
                 <h4>Explore the best short clips curated by college influencers and friends now.</h4>
-                <section class="mt-4 text-center">
-                    <a class="btn border-dark px-4 py-2 rounded-pill light-brown"> Art</a>
+                <section class="mt-4 text-center ">
+                    <a class="btn border-dark px-4 py-2 rounded-pill light-brown tablet-visibility"> Art</a>
                     <a class="btn border-dark px-4  py-2 mx-3 rounded-pill light-brown">Science & Tech</a>
-                    <a class="btn border-dark px-4  py-2 rounded-pill light-brown">Campaign</a>
+                    <a class="btn border-dark px-4  py-2 rounded-pill light-brown tablet-visibility">Campaign</a>
                 </section>
-                <section class="mt-4 text-center">
+                <section class="mt-4 text-center tablet-visibility">
                     <a class="btn border-dark  py-2 px-4 rounded-pill light-brown"> Practical class</a>
                     <a class="btn border-dark  py-2 px-4 mx-3 rounded-pill light-brown">Announcements</a>
                     <a class="btn border-dark  py-2 px-4 rounded-pill light-brown">Highlight moments</a>
                 </section>
-                <a class="w-25 btn blue-background py-2 px-4 rounded text-accent mt-5 text-dark justify-content-between align-self-center">See more</a>
+                <a class="w-25 btn blue-background py-2 px-4 rounded text-accent mt-5 text-dark justify-content-between align-self-center tablet-visibility">See more</a>
             </section>
         </div>
-        <h4 class="mt-5 text-center fs-1 fw-bold"> Features</h4>
-                <section class="d-flex justify-content-between mt-4">
-                    <section>
+        <h4 class="mt-5 text-center fs-1 fw-bold tablet-visibility"> Features</h4>
+                <section class="d-flex justify-content-between mt-4 tablet-visibility">
+                    <section class="tablet-visibility">
                         <img src="img/Frame 168 (2).png" width="200px" height="200px"/>
                         <p class="mt-3 fw-bold">Share video clips instantly</p>
                     </section>
@@ -226,7 +274,7 @@
                         <p class="mt-3 fw-bold">Create your own playlist</p>
                   </section>
                 </section>
-                <section class="mt-5">
+                <section class="mt-5 tablet-visibility">
                     <h4 class="mb-5 text-center fs-1 fw-bold"> About Us</h4>
                     <section class="d-flex justify-content-around">
                         <section>
@@ -234,7 +282,7 @@
                             <p class="mt-4">Ihejiako Amarachi</p>
                         </section>
                         <section>
-                            <img src="img/Frame 203 (1).png" width="268.39px" height="268.39px"/>
+                            <img src="img/me.jpeg" width="230px" height="268.39px"/>
                             <p class="mt-4">Obumneme Anthony Okoye</p>
                         </section>
                         <section>
@@ -258,21 +306,23 @@
                         enables college <br> students share,
                          download and comment on short videos.</p>
                     <!-- search bar-->
-                    <nav class="navbar navbar-black bg-black">
-                        <form class="form-inline w-100">
-                        <input class="form-control mr-sm-2 p-2 bg-dark" type="search" placeholder="🔍 Search" aria-label="Search">
+                    <nav class="navbar navbar-black bg-black footer-section">
+                        <form class="form-inline w-100 align-self-center mt-5 d-flex fontsearch">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            <input class="form-control mr-sm-2 p-2 bg-white" type="search" placeholder="         Search for songs, lyrics.artist..." aria-label="Search">
                         </form>
                     </nav>
+                    
                     <!-- search bar-->
                     <section class="d-flex mt-4 justify-content-between">
-                        <img src="img/linkedin.png" height="35px" width="35px"/>
+                        <img src="img/linkedin.png" height="35px" width="35px" class="footer-section" />
                         <img src="img/facebook-square.png" height="35px" width="30.63px"/>
                         <img src="img/gmail.png" height="35px" width="35px"/>
                         <img src="img/instagram.png" class="align-self-center" height="35px" width="35px"/>
-                        <img src="img/twitter.png" height="35px" width="35px"/>
+                        <img src="img/twitter.png" height="35px" width="35px" class="footer-section"/>
                     </section>
               </section>
-              <div class="second-section--footer ">
+              <div class="second-section--footer footer-section">
                 <ul class="fs-6 text-white list-unstyled ms-5 ps-5 mt-5">
                     <li><a class="text-decoration-none" href="landingPage.html">Home</a></li>
                     <li class="mt-3">FAQ</li>
@@ -281,7 +331,7 @@
                     <li class="mt-3"><a href="Signup.html" class="text-decoration-none">Sign up/Log in</a></li>
                 </ul>
               </div>
-              <div class="third-section--footer mt-4">
+              <div class="third-section--footer mt-4 footer-section">
                 <h4 class="text-white">Subscribe to News Letter</h4>
                 <div class="mt-4">
                     <label for="myEmail" class="brown-text"> Email Address</label><br>
@@ -290,16 +340,16 @@
                 <button class="w-100 rounded bg-accent p-2 mt-4 fw-bold">Submit email</button>
               </div>
             </section>
-            <section class="d-flex justify-content-between mt-5">
-                <section>
-                    <strong class="text-white">(c) TuteeReelz 2022</strong> 
+            <section class="d-flex justify-content-between mt-5 footer-section">
+                <section class="">
+                    <strong class="text-white footer-section">(c) TuteeReelz 2022</strong> 
                 </section>
-                <section class="d-flex text-white">
-                    <p>Terms of use</p>
-                    <p class="ms-4">Privacy Policy</p>
+                <section class="d-flex footer-section text-white footer-section">
+                    <p class="footer-section">Terms of use</p>
+                    <p class="ms-4 footer-section">Privacy Policy</p>
                 </section>
                 <section>
-                    <a class="btn brown-bg rounded text-white p-2 px-3"><img src="img/website.png" width="20px" height="20px" class="me-1" /> English </a>
+                    <a class="footer-section btn brown-bg rounded text-white p-2 px-3"><img src="img/website.png" width="20px" height="20px" class="me-1"/> English </a>
                 </section>
             </section>
         </section>

@@ -1,8 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
 body{
     background: rgba(242, 242, 242, 1);
     font-family: 'Arima Madurai', cursive;
-    /* font-family: 'Inter', sans-serif;
-    font-family: 'Roboto', sans-serif; */
+
 }
 
 h3{
@@ -13,6 +18,10 @@ h3{
     color: rgba(28, 132, 157, 1);
     margin-left: 20px;
     padding-top: 12px;
+}
+
+.form-weight{
+    width:500px;
 }
 
 #signUp_text{
@@ -142,3 +151,171 @@ h3{
     border-top-left-radius: 100px;
     border-bottom-left-radius: 100px;
 }
+
+.fontsearch {
+    position: relative;
+}
+  
+.fontsearch i{
+    position: absolute;
+    left: 15px;
+    top: 11px;
+    color: gray;
+}
+
+.navbar, .tablet-header{
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+ .bigScreen-visibility, .login-img{
+    display: none;
+ }
+
+ .login-hero-section{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+ }
+
+
+}
+
+@media screen and (max-width: 769px) {
+    .navbar, .desktop-header,
+    .tablet-visibility{
+        display: none;
+    }
+
+    .tablet-header{
+        display: block;
+    }
+
+    .movie-background{
+        background: rgba(239, 250, 255, 1);  
+    }
+
+    .Third-Hero--column{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+     }
+
+     .login-hero-section{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+     }
+
+     #mobile-image{
+        display: none;
+    }
+    
+    .hero-section{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .signup-form-hero-section-cont{
+        width: 100%;
+    }
+
+    #signUp_text{
+        display:none;
+    }
+    
+   
+
+}
+
+@media screen and (max-width: 426px) {
+
+    .verify-btn{
+        /* height: 56px; */
+        width: 150px;
+        /* border-radius: 8px;
+        padding: 16px 40px 16px 40px; */
+    }
+.navbar {
+        display: block;
+}
+
+.login-hero-section{
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+/* .form-weight{
+    width: 100%;
+} */
+
+
+.desktop-header, .tablet-header,
+.hero-column, .Hero-second-column,
+.text-black, .Hero-fourth-column,
+.click-more, .login-img,
+.box-visibility{
+    display: none;
+}
+
+.footer-section{
+    display: none;
+}
+
+.Third-Hero--column{
+   display:flex;
+   flex-direction: column;
+   /* align-content: center;
+   justify-content:center;
+   align-self: center;
+   justify-self: center; */
+   text-align: center;
+}
+
+.movie-box{
+    flex-direction: column;  
+}
+
+iframe{
+    max-width: 100%;
+}
+
+.movie-background{
+    background: rgba(239, 250, 255, 1);  
+}
+
+.border-mobile{
+    padding-top: 100px;
+
+}
+
+.first-section--footer{
+    width: 100%;
+    text-align: center;
+}
+
+#mobile-image{
+    display: none;
+}
+
+.hero-section{
+    display:flex;
+    flex-direction: column;
+    /* text-align: center; */
+    width: 100%;
+}
+
+#signUp_text{
+    display:none;
+}
+
+.signup-form-hero-section-cont{
+    width: 100%;
+}
+
+
+}
+@media screen and (max-width: 378px) {}
+@media screen and (max-width: 321px) {}

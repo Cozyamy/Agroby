@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!--Font link-->
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300;400;500;900&family=Inter:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
@@ -14,7 +15,7 @@
     <title>Login</title>
 </head>
 <body>
-      <!-- Header section -->
+    <!-- Header section -->
     <section class="container">
         <header id="header" class="mt-5 d-flex justify-content-between">
             <section id="logo-cont" class="d-flex">
@@ -25,11 +26,12 @@
     </section>
     <!--Hero section-->
     <div class="container">
-        <div class="d-flex mb-5">
+        <div class="d-flex mb-5 login-hero-section">
             <div class="hero d-flex justify-content-around w-50">
-                <img src="img/pana.png" height="616px" width="616px" class="mt-5" alt="mobile picture"/>
+                <img src="img/pana.png" height="616px" width="616px" class="mt-5 login-img" alt="mobile picture"/>
             </div>
-            <div class="w-50">
+
+            <div class="font-weight"><!--I removed w-50-->
                 <form class="form">
                     <h1>Welcome Back</h1>
                     <div class="mt-4">
@@ -71,21 +73,23 @@
                         enables college <br> students share,
                          download and comment on short videos.</p>
                     <!-- search bar-->
-                    <nav class="navbar navbar-black bg-black">
-                        <form class="form-inline w-100">
-                        <input class="form-control mr-sm-2 p-2 bg-dark" type="search" placeholder="🔍 Search" aria-label="Search">
+                    <nav class="navbar navbar-black bg-black footer-section">
+                        <form class="form-inline w-100 align-self-center mt-5 d-flex fontsearch">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            <input class="form-control mr-sm-2 p-2 bg-white" type="search" placeholder="         Search for songs, lyrics.artist..." aria-label="Search">
                         </form>
                     </nav>
+                    
                     <!-- search bar-->
                     <section class="d-flex mt-4 justify-content-between">
-                        <img src="img/linkedin.png" height="35px" width="35px"/>
+                        <img src="img/linkedin.png" height="35px" width="35px" class="footer-section" />
                         <img src="img/facebook-square.png" height="35px" width="30.63px"/>
                         <img src="img/gmail.png" height="35px" width="35px"/>
                         <img src="img/instagram.png" class="align-self-center" height="35px" width="35px"/>
-                        <img src="img/twitter.png" height="35px" width="35px"/>
+                        <img src="img/twitter.png" height="35px" width="35px" class="footer-section"/>
                     </section>
               </section>
-              <div class="second-section--footer ">
+              <div class="second-section--footer footer-section">
                 <ul class="fs-6 text-white list-unstyled ms-5 ps-5 mt-5">
                     <li><a class="text-decoration-none" href="landingPage.html">Home</a></li>
                     <li class="mt-3">FAQ</li>
@@ -94,7 +98,7 @@
                     <li class="mt-3"><a href="Signup.html" class="text-decoration-none">Sign up/Log in</a></li>
                 </ul>
               </div>
-              <div class="third-section--footer mt-4">
+              <div class="third-section--footer mt-4 footer-section">
                 <h4 class="text-white">Subscribe to News Letter</h4>
                 <div class="mt-4">
                     <label for="myEmail" class="brown-text"> Email Address</label><br>
@@ -103,16 +107,16 @@
                 <button class="w-100 rounded bg-accent p-2 mt-4 fw-bold">Submit email</button>
               </div>
             </section>
-            <section class="d-flex justify-content-between mt-5">
-                <section>
-                    <strong class="text-white">(c) TuteeReelz 2022</strong> 
+            <section class="d-flex justify-content-between mt-5 footer-section">
+                <section class="">
+                    <strong class="text-white footer-section">(c) TuteeReelz 2022</strong> 
                 </section>
-                <section class="d-flex text-white">
-                    <p>Terms of use</p>
-                    <p class="ms-4">Privacy Policy</p>
+                <section class="d-flex footer-section text-white footer-section">
+                    <p class="footer-section">Terms of use</p>
+                    <p class="ms-4 footer-section">Privacy Policy</p>
                 </section>
                 <section>
-                    <a class="btn brown-bg rounded text-white p-2 px-3"><img src="img/website.png" width="20px" height="20px" class="me-1" /> English </a>
+                    <a class="footer-section btn brown-bg rounded text-white p-2 px-3"><img src="img/website.png" width="20px" height="20px" class="me-1"/> English </a>
                 </section>
             </section>
         </section>
